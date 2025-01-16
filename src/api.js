@@ -6,7 +6,7 @@ const DataFetchingComponent = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  useEffect(() => {
+  useEffect(() => { 
     fetchPosts()
       .then((data) => {
         setData(data);
